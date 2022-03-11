@@ -32,6 +32,9 @@ dependencies = [
 [project.urls]
 Source = 'https://github.com/sphuber/aiida-aiida-ro-crate'
 
+[project.scripts]
+aiida-ro-crate = 'aiida_ro_crate.cli.cli:cmd_root'
+
 [project.optional-dependencies]
 pre-commit = [
     'pre-commit~=2.17',
